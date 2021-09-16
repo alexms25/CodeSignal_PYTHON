@@ -6,8 +6,3 @@ def makeArrayConsecutive2(statues):
     x = len(statues)
     y = len(lista)
     return (y - x)
-
-
-
-v = [6, 2, 3, 8]
-print (makeArrayConsecutive2(v))
