@@ -1,0 +1,13 @@
+def makeArrayConsecutive2(statues):
+    statues.sort()
+    primer_valor = (statues[0])
+    ultimo_valor = (statues[-1])
+    lista = list(range(primer_valor, ultimo_valor + 1))
+    x = len(statues)
+    y = len(lista)
+    return (y - x)
+
+
+
+v = [6, 2, 3, 8]
+print (makeArrayConsecutive2(v))
